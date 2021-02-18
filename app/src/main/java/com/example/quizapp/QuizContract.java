@@ -1,0 +1,27 @@
+package com.example.quizapp;
+
+import android.provider.BaseColumns;
+
+public final class QuizContract {
+
+    public QuizContract() {
+    }
+
+    public static class CategoriesTable implements BaseColumns {
+        public static final String TABLE_NAME ="quiz_categories";
+        public static final String COLUMN_NAME ="name";
+    }
+
+        //basecolumns provide constants to create column in db
+    public static class QuestionTable implements BaseColumns {
+        public static final String TABLE_NAME ="quiz_questions";
+        public static final String COLUMN_QUESTIONS ="questions";
+        public static final String COLUMN_OPTION1 ="option1";
+        public static final String COLUMN_OPTION2 ="option2";
+        public static final String COLUMN_OPTION3 ="option3";
+        public static final String COLUMN_ANSWER_NR ="answer_nr";
+        public static final String COLUMN_DIFFICULTY ="difficulty";
+        public static final String COLUMN_CATEGORY_ID ="category_id";
+
+        }
+}
