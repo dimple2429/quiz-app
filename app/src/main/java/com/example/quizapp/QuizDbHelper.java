@@ -106,22 +106,27 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 "A", "B", "C", 1,
                 Question.DIFFICULTY_EASY, Category.PROGRAMMING);
         InsertQuestion(q1);
+
         Question q2 = new Question("Programming, Medium: B is correct",
                 "A", "B", "C", 2,
                 Question.DIFFICULTY_MEDIUM, Category.PROGRAMMING);
         InsertQuestion(q2);
+
         Question q3 = new Question("Math, Hard: C is correct",
                 "A", "B", "C", 3,
                 Question.DIFFICULTY_HARD, Category.MATHS);
         InsertQuestion(q3);
+
         Question q4 = new Question("Math, Easy: A is correct",
                 "A", "B", "C", 1,
                 Question.DIFFICULTY_EASY, Category.MATHS);
         InsertQuestion(q4);
+
         Question q5 = new Question("Non existing, Easy: A is correct",
                 "A", "B", "C", 1,
                 Question.DIFFICULTY_EASY, 4);
         InsertQuestion(q5);
+
         Question q6 = new Question("Non existing, Medium: B is correct",
                 "A", "B", "C", 2,
                 Question.DIFFICULTY_MEDIUM, 5);
@@ -208,7 +213,6 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 null,
                 null
         );
-
 
         if (c.moveToFirst()) {
             do {
