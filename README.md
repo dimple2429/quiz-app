@@ -6,10 +6,4 @@
 
 Screenshots:
 
-<image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-53-18.jpg" width = "400" height= "700"/>
-
-<image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-46-16.jpg" width = "400" height= "700"/>
-
-<image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-53-21.jpg" width = "400" height= "700"/>
-
-<image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-46-18.jpg" width = "400" height= "700"/>
+<image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-53-18.jpg" width = "300" height= "600"/>   <image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-46-16.jpg" width = "300" height= "600"/>   <image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-53-21.jpg" width = "300" height= "600"/>   <image src= "https://github.com/dimple2429/quiz-app/blob/master/Quiz%20Screens/photo_2021-02-19_14-46-18.jpg" width = "300" height= "600"/>
